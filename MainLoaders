@@ -1,1 +1,7 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Void Hub is loading",
+	Text = "Void Hub",
+	Duration = 30 
+})
+
 loadstring(game:HttpGet("https://pastefy.app/QDcXcBjN/raw", true))()
