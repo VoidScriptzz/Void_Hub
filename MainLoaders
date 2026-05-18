@@ -50,6 +50,7 @@ local GAMES = {
 		Load = function()
 			if currentPlaceId == 99606176102979 then
 				loadstring(game:HttpGet("https://pastefy.app/pOKgt6Z2/raw", true))()
+				return
 			end
 
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidScriptzz/NewVoidHub/refs/heads/main/MainLoader", true))()
