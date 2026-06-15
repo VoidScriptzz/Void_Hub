@@ -83,6 +83,14 @@ local GAMES = {
 				end)
 			end)
 		end
+	},
+
+	GrowAGarden2 = {
+		Name = "Grow A Garden 2",
+		PlaceIds = {77085202503540, 97598239454123, 133438856880402},
+		Load = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidScriptzz/GrowAGardenScript2/refs/heads/main/MainLoaders"))()
+		end
 	}
 }
 
